@@ -1,0 +1,13 @@
+/* html{
+    font-size: 10px;
+} */
+
+.parent{
+    width: 50vw;
+    height: 50vh;
+    font-size: 1em;
+}
+
+.child{
+    font-size: 2em;
+}

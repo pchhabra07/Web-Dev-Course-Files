@@ -1,0 +1,8 @@
+.element{
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    margin: 100px auto;
+    transform: skewX(30deg);
+    /* skewY(60deg); */
+}

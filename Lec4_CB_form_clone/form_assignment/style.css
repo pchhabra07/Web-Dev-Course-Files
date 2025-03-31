@@ -1,0 +1,27 @@
+body{
+    font-size: 20px;
+}
+
+.header-table{
+    width: 100%;
+}
+
+.logo-img,.heading-wrapper{
+    width: 40%;
+}
+
+.img{
+    height: 80px;
+    background-image: url('logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.heading{
+    text-decoration: underline;
+}
+
+.checkbox{
+    height: 20px;
+    width: 20px;
+}

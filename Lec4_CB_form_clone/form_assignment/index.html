@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bodyStyle.css">
+</head>
+    <section class="header">
+        <table class="header-table">
+            <tr>
+                <td class="logo-img">
+                    <div class="img"></div>
+                </td>
+
+                <td class="heading-wrapper">
+                    <h3 class="heading">Student Application Form</h3>
+                </td>
+
+                <td class="enquiry-type">
+                    <div class="enquiry-check">
+                        <input class="checkbox" type="checkbox" name="enquiry">
+                        <label for="enquiry">Enquiry</label>
+                    </div>
+                    <div class="enrolled-check">
+                        <input class="checkbox" type="checkbox" name="enrolled">
+                        <label for="enrolled">Enrolled</label>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="student-details">
+        <div class="left-half">
+            <table class="left-half-table">
+                <tr>
+                    <td>
+                        <div class="left-half-labels">
+                            <label for="name">Name:</label>
+                        </div>
+                        <div class="left-half-labels">
+                            <label for="age">Age:</label>
+                        </div>
+                        <div class="left-half-labels">
+                            <label for="contact">Contact No.:</label>
+                        </div>
+                        <div class="left-half-labels">
+                            <label for="email">E-mail:</label>
+                        </div>
+                    </td>
+                    
+                    <td>
+                        <div class="left-half-inputs">
+                            <input class="inputfields" for="name" type="text">
+                        </div>
+                        <div class="left-half-inputs">
+                            <input class="inputfields" for="age" type="number">
+                        </div>
+                        <div class="left-half-inputs">
+                            <input class="inputfields" for="contact" type="number">
+                        </div>
+                        <div class="left-half-inputs">
+                            <input class="inputfields" for="email" type="email">
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="right-half">
+            <table class="right-half-table">
+                <tr>
+                    <td>
+                        <div class="right-half-labels">
+                            <label for="college-name">College:</label>
+                        </div>
+                        <div class="right-half-labels">
+                            <label for="branch">Branch:</label>
+                        </div>
+                        <div class="right-half-labels">
+                            <label for="state">State:</label>
+                        </div>
+                        <div class="right-half-labels">
+                            <label for="pincode">Pincode:</label>
+                        </div>
+                    </td>
+                    
+                    <td>
+                        <div>
+                            <input class="inputfields" for="college-name" type="text">
+                        </div>
+                        <div>
+                            <input class="inputfields" for="branch" type="text">
+                        </div>
+                        <div>
+                            <select name="state">
+                                <option value="UP">Uttar Pradesh</option>
+                                <option value="Del">Delhi</option>
+                                <option value="Mum">Mumbai</option>
+                                <option value="Ban">Bangalore</option>
+                            </select>
+                        </div>
+                        <div>
+                            <input class="inputfields" for="pincode" type="number">
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="clearfix"></div>
+    </section>
+
+    <section class="course-details">
+        <h4>Course Interested In (Please tick the appropriate one)</h4>
+        <div class="course-options-left-half">
+            <table>
+                <tr>
+                    <td>
+                        <div class="course-options">
+                            <input class="inputs" type="checkbox" name="dsacpp">
+                            <label class="labels" for="dsacpp">Launchpad (DSA usign C++)</label>
+                        </div>
+                        <div class="course-options">
+                            <input class="inputs" type="checkbox" name="webdev">
+                            <label class="labels" for="webdev">Web Development with Node.JS</label>
+                        </div>
+                        <div class="course-options">
+                            <input class="inputs" type="checkbox" name="mlds">
+                            <label class="labels" for="mlds">Machine Learning & Data Science</label>
+                        </div>
+                        <div class="course-options">
+                            <input class="inputs" type="checkbox" name="sdl">
+                            <label class="labels" for="sdl">System Design Live</label>
+                        </div>
+                        <div class="course-options">
+                            <input class="inputs" type="checkbox" name="pbwp">
+                            <label class="labels" for="pbwp">Placement Bootcamp (Working Professionals)</label>
+                        </div>
+                        <div class="course-options">
+                            <input class="inputs" type="checkbox" name="daai">
+                            <label class="labels" for="daai">Data Analytics with AI Tools</label>
+                        </div>
+                        <div class="course-options">
+                            <input class="inputs" type="checkbox" name="smp">
+                            <label class="labels" for="smp">Sampoorna (DSA + WebDev + Comp. Prog. + Interview Prep, etc.)</label>
+                        </div>
+                        <div class="course-options">
+                            <input class="inputs" type="checkbox" name="other">
+                            <label class="labels" for="other">Other</label>
+                            <input class="text-inputs" type="text" name="other">
+
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="course-options-right-half">
+            <table>
+                <tr>
+                    <td>
+                        <div class="course-options">
+                            <input class="inputs" type="checkbox" name="dsajava">
+                            <label class="labels" for="dsajava">Crux (DSA usign Java)</label>
+                        </div>
+                        <div class="course-options">
+                            <input class="inputs" type="checkbox" name="cp">
+                            <label class="labels" for="cp">Competitive Programming</label>
+                        </div>
+                        <div class="course-options">
+                            <input class="inputs" type="checkbox" name="devops">
+                            <label class="labels" for="devops">DevOps LIVE</label>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="clearfix"></div>
+    </section>
+
+    <section class="other-info">
+        <h4>Which Centre are you interested in? (Please tick the appropriate one) </h4>
+        <div class="left-half-other-info">
+            <input class="inputs" type="checkbox" name="centre-pp">
+            <label for="centre-pp">Pitampura</label>
+        </div>
+        <div class="right-half-other-info">
+            <input class="inputs" type="checkbox" name="centre-no">
+            <label for="centre-no">Noida</label>
+        </div>
+
+        <div class="clearfix"></div>
+    </section>
+
+    <section class="know-about">
+        <h4>How do you come to know about us? </h4>
+        <div class="left-half-know-about">
+            <table class="know-about-table">
+                <tr>
+                    <td>
+                        <div class="left-half-left-option">
+                            <label class="labels" for="friends">Friends</label>
+                            <input class="inputs" type="checkbox" name="friends">
+                        </div>
+                        <div class="left-half-right-option">
+                            <label class="labels" for="research">Your own Research</label>
+                            <input class="inputs" type="checkbox" name="research">
+                        </div>
+                        <div class="clearfix"></div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="right-half-know-about">
+            <table class="know-about-table">
+                <tr>
+                    <td>
+                        <div class="right-half-left-option">
+                            <label class="labels" for="socialmedia">Social Media</label>
+                            <input class="inputs" type="checkbox" name="socialmedia">
+                        </div>
+                        <div class="right-half-right-option">
+                            <label class="labels" for="ads">Advertisements</label>
+                            <input class="inputs" type="checkbox" name="ads">
+                        </div>
+                        <div class="clearfix"></div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="clearfix"></div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,17 @@
+.container{
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+
+body{
+    padding: 50px;
+}
+
+.item{
+    border: 2px solid red;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}

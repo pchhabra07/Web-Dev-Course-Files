@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="#">
+        <fieldset>
+            <legend>Credentials</legend>
+            <label for="Name">First Name:</label>
+            <input name="Name" type="text" placeholder="Enter first name">
+            <br>
+            <label for="surname">Surname:</label>
+            <input name="surname" type="text" placeholder="Enter surname">
+            <br>
+            <label for="age">Age:</label>
+            <input name="age" type="number" placeholder="Age" value="24" min="16" max="24">
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Miscellaneous</legend>
+            <label for="Password">Password</label>
+            <input name="Password" type="password">
+            <br>
+            <label for="Email">Email</label>
+            <input name="Email" type="email">
+            <br>
+            <label for="Date">DOB</label>
+            <input name="Date" type="date" value="2025-03-15">
+            <br>
+            <label for="Group">House</label>
+            <select name="Group" >
+                <option value="red">Red</option>
+                <option value="green" selected>Green</option>
+                <option value="blue">Blue</option>
+                <option value="yellow">Yellow</option>
+            </select>
+            <br>
+        </fieldset>
+        <textarea name="additional-info" cols="30" rows="10">Additional Comments</textarea>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,96 @@
+.student-details,.other-info,.know-about{
+    padding: 2% 10%;
+}
+
+.left-half,.right-half{
+    width: 45%;
+    /* border: 1px solid red; */
+}
+
+.left-half-table,.right-half-table{
+    width: 100%;
+}
+
+.clearfix{
+    clear: both;
+}
+
+select{
+    width: 100%;
+}
+
+.left-half{
+    padding: 20px;
+    float: left;
+}
+
+.right-half{
+    padding: 20px;
+    float: right;
+}
+
+.inputfields{
+    width: 100%;
+}
+
+.course-details{
+    padding: 2% 10%;
+}
+
+.course-options-left-half,.course-options-right-half{
+    width: 45%;
+    padding: 20px;
+}
+
+.course-options-left-half{
+    float: left;
+}
+
+.course-options-right-half{
+    float: right;
+}
+
+.inputs{
+    height: 20px;
+    width: 20px;
+}
+
+.labels{
+    font-size: 20px;
+}
+
+.left-half-other-info,.right-half-other-info{
+    width: 45%;
+}
+
+.left-half-other-info{
+    float: left;
+}
+
+.right-half-other-info{
+    float: right;
+}
+
+.left-half-know-about,.right-half-know-about{
+    width: 45%;
+}
+
+.left-half-know-about{
+    float: left;
+}
+
+.right-half-know-about{
+    float: right;
+}
+
+.know-about-table{
+    width: 100%;
+}
+
+.left-half-left-option,.right-half-left-option{
+    float: left;
+}
+
+.left-half-right-option,.right-half-right-option{
+    float: right;
+}

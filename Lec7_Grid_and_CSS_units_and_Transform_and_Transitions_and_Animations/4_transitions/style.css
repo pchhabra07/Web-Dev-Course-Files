@@ -1,0 +1,13 @@
+.element{
+    height: 400px;
+    width: 400px;
+    margin: 300px auto;
+    background-color: blanchedalmond;
+    transition-duration: 3s;
+    transition-delay: 5s;
+}
+
+.element:hover{
+    transform: rotate(60deg);
+    background-color: blueviolet;
+}

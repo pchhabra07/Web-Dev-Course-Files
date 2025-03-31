@@ -1,0 +1,11 @@
+.element{
+    height: 500px;
+    width: 500px;
+    margin: 100px auto;
+    background-color: blanchedalmond;
+    border: solid 1px black;
+    transform: rotateZ(45deg);
+
+    transform: translateX(200px);
+    transform: translateY(200px);
+}
