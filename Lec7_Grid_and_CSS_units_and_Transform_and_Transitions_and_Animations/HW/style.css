@@ -360,9 +360,11 @@ a{
 }
 
 .bookmark-icon{
-    width: 20px;
-    height: 20px;
-    background-image: url("./assets/bookmark_add_icon.svg");
+    width: 16px;
+    height: 16px;
+    margin-left: 2px;
+    margin-right: 3px;
+    background-image: url("/assets/bookmark_add_icon.png");
     background-repeat: no-repeat;
     background-size: contain;
     
