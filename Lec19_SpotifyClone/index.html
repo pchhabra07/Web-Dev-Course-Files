@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="spotify-logo"></div>
+    </div>
+
+    <div class="playlist-container">
+        <div class="songs">
+            <h2 id="heading">Best of NCS - No Copyright Songs</h2>
+
+            <div id="song-list">
+                
+            </div>
+        </div>
+
+        <div class="artist-image"></div>
+    </div>
+
+    <div id="song-player">
+        <div class="player">
+            <audio autoplay id="audio-player"></audio>
+            <input type="range" id="progress" min="0" value="0" max="0">
+        </div>
+        <div id="player-controls">
+            <p id="track-title">No song playing</p>
+            <div id="control-buttons">
+                <div class="container">
+                    <div id="prev-button"></div>
+                    <div id="play-pause-button"></div>
+                    <div id="next-button"></div>
+                </div>
+                
+            </div>
+            <p id="durationOfTrack">0:00</p>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
