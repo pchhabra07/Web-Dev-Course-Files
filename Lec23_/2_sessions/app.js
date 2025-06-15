@@ -1,6 +1,9 @@
 import express from 'express'
 import mongoose from 'mongoose'
 import session from 'express-session'
+import 'dotenv/config'
+
+
 
 import idsAndPass from './models/idsAndPass.js'
 
@@ -113,13 +116,15 @@ app.post('/register', async (req,res)=>{
     }
 })
 
-mongoose.connect('mongodb://localhost:27017')
+
+mongoose.connect(process.env.mongoDB_URL)
 .then(()=>{
     console.log('Database connected...')
     app.listen(3000, () => {       
         console.log('Server is running on http://localhost:3000');
     });
 })
+
 .catch(err=>{
     console.log('Error connecting to database: '+err)
 })
