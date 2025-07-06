@@ -1,9 +1,7 @@
 const express = require('express');
 const session = require('express-session');
 const passport = require('passport');
-
 const authRouter = require('./routes/user')
-
 require('./authentication/passport')
 
 const app = express();
