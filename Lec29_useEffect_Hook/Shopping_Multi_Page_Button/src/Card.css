@@ -1,0 +1,19 @@
+.product-card{
+    height: 18vw;
+    width: 18vw;
+    border: solid 1px grey;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-image{
+    height: 60%;
+    width: 60%;
+}
+
+.product-title{
+    text-align: center;
+}
